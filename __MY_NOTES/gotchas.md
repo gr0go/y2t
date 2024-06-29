@@ -1,0 +1,1 @@
+- To render_template, they need to be inside a folder called `templates`

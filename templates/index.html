@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="static/style.css">
+    <title>SFer Projects - y2t</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Youtube to Text</h1>
+    <form style="display: flex; justify-content: center; gap: 3px; width:70%" action="submit" method="post">
+        <input type="url" name="url" placeholder="Video URL...." autofocus required
+            style="padding:0.85rem 1rem; width:50%">
+        <button style="padding:1rem;">Convert</button>
+    </form>
+
+</body>
+
+</html>
